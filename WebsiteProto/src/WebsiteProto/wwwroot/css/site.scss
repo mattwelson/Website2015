@@ -17,6 +17,7 @@ body {
    background-size:cover;
    position:relative;
    overflow:hidden;
+   transition:background-position linear 0.1s;
 }
 
 .header-container {
@@ -25,6 +26,7 @@ body {
     position:absolute;
     width:100%;
     text-align:center;
+    transition:transform linear 0.1s;
 }
 
 .container {
