@@ -5,8 +5,10 @@ $(window).scroll(function () {
 
     if (windowScroll <= headerHeight) {
         $('.header-container').css({
-            'transform': 'translate(0px,-' + windowScroll * 0.2 + '%)'
+            'transform': 'translate(0px,-' + windowScroll * 0.1 + '%)'
         });
-
+        $('.header-img').css({
+            'background-position': '0% -' + windowScroll * 0.1 + '%'
+        });
     }
 });
